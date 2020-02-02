@@ -2,8 +2,9 @@ import React from 'react';
  
 const Resume = () => {
     return (
-       <div>
-          <h1>Home</h1>
+       <div class="transition-item">
+          <h1>Resume</h1>
+          <hr class = "bluebar"></hr>
            <p>Home page body content</p>
        </div>
     );

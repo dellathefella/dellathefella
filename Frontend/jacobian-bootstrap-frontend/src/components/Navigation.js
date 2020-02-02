@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom';
  
 const Navigation = () => {
     return (
+ 
        <div>
  
           <nav class="navbar navbar-expand-lg navbar-custom ">
@@ -15,9 +16,10 @@ const Navigation = () => {
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link"><NavLink to="/blog" style={{color: 'white', textDecoration: 'none'}} activeStyle={{color: '#5cb6ff', textDecoration: 'none'}}>Blog</NavLink> <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link"><NavLink to="/links" style={{color: 'white', textDecoration: 'none'}} activeStyle={{color: '#5cb6ff', textDecoration: 'none'}} >Links</NavLink> <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link"><NavLink to="/gallery" style={{color: 'white', textDecoration: 'none'}} activeStyle={{color: '#5cb6ff', textDecoration: 'none'}} >Gallery</NavLink> <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link"><NavLink to="/resume" style={{color: 'white', textDecoration: 'none'}} activeStyle={{color: '#5cb6ff', textDecoration: 'none'}} >Resume</NavLink> <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link"><NavLink to="/contact" style={{color: 'white', textDecoration: 'none'}} activeStyle={{color: '#5cb6ff', textDecoration: 'none'}} >Contact</NavLink> <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link"><NavLink to="/links" style={{color: 'white', textDecoration: 'none'}} activeStyle={{color: '#5cb6ff', textDecoration: 'none'}} >Links</NavLink> <span class="sr-only">(current)</span></a>
 
     </div>
   </div>
@@ -35,7 +37,7 @@ const Navigation = () => {
       </div>
 
 
-      
+ 
 
 
 
