@@ -1,11 +1,11 @@
 //Database connection
 var mysql = require('mysql');
 var cfg = mysql.createConnection({
-    host : "98.117.196.205",
+    host : "96.244.191.34",
     user : "jacobianonline",
     password : "VFO1092!@#4",
-    database : "jacobianonline"
-});
+    database : "jdella1996"
+ });
 
 //Intialize MySQL session. If you end the connection
 //you're gonna have to call it again to open the 

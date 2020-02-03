@@ -7,12 +7,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,40 +22,108 @@
   color: black;
 }
 
-.detail-page {
-  overflow: auto;
-  box-sizing: border-box;
-  padding: 20px;
-  height: 100vh;
-  background-color: #03a9f4;
-  transition: transform 0.5s, opacity 0.5s;
- 
-  &.transition-appear {
-    opacity: 0;
-    transform: translate3d(100%, 0, 0);
-  }
- 
-  &.transition-appear.transition-appear-active {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
-  &.transition-leave {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
- 
-  &.transition-leave.transition-leave-active {
-    opacity: 0;
-    transform: translate3d(100%, 0, 0);
-  }
+.page {
+  position: absolute;
+  top: 75px;
+  left: 0;
+  right: 0;
 }
+
+/* simple - enter transition 300ms, exit 150ms */
+.fade-appear,
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms linear 200ms;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+    opacity: 0;
+    transition: opacity 200ms linear;
+}
+
+
+li{
+  list-style-type: none;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+h1{
+font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+monospace;
+text-align:center;
+} 
+
+p{
+font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+monospace;
+}
+
+
+h3{
+font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+monospace;
+}
+
+#heading h1, h2{ 
+display: inline; 
+}
+
+
+
+h1.blinking{
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+  display: inline;
+  animation:blinkingText 0.5s infinite;
+}
+@keyframes blinkingText{
+  0%{     color: #000;    }
+  49%{    color: #000; }
+  60%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: #000;    }
+}
+
+
+hr.greenbar {
+    border: 5px solid #00cc44;
+    border-radius: 5px;
+}
+
+hr.blackbar {
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+a{
+text-align:center;
+color: black;
+text-decoration: none;
+font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+monospace;
+}
+
+
+.App-link {
+  color:turquoise;
+}
+
  
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+.navbar-custom { 
+  background-color:black; 
+} 
+/* Modify brand and text color */ 
+
+ 

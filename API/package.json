@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/JDella1996/JacobianOnlineMK2/issues"
   },
-  "homepage": "https://github.com/JDella1996/JacobianOnlineMK2#readme"
+  "homepage": "https://github.com/JDella1996/JacobianOnlineMK2#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mysql": "^2.18.1"
+  }
 }
