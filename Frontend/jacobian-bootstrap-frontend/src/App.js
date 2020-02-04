@@ -5,7 +5,6 @@ import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Navigation from './components/Navigation';
 import Links from './components/Links';
-import Resume from './components/Resume';
 import Gallery from './components/Gallery';
 import {CSSTransition, TransitionGroup} from 'react-transition-group';
 import './App.css'
@@ -39,8 +38,7 @@ class App extends Component {
                     <Route path="/contact" component={Contact} exact/>
                     <Route path="/links" component={Links} exact/>
                     <Route path="/blog" component={Blog} exact/>
-                    <Route path="/resume" component={Resume} exact/>
-                    <Route path="/Gallery" component={Gallery} exact/>
+                    <Route path="/gallery" component={Gallery} exact/>
                     <Route component={Error}/>
                   </Switch>
              </CSSTransition>

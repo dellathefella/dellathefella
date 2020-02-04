@@ -1,5 +1,7 @@
 
 import React from 'react';
+import Resume from "./staticfiles/documents/JacobADellaResume.pdf"
+import Transcript from "./staticfiles/documents/JacobADellaTranscript.pdf"
 const Links = () => {
     return (
         <div className="page">
@@ -23,11 +25,16 @@ const Links = () => {
                 <a  href="https://twitter.com/JDella1996" target="_blank" >Twitter<span class="sr-only">(current)</span></a>
                 <br></br>
             </li>
-    
+            <li>
+                 <a href={Resume} target="_blank">Resume<span class="sr-only">(current)</span></a>
+                 <br></br>
 
+            </li>
+            <li>
+                 <a href={Transcript} target="_blank">Transcript<span class="sr-only">(current)</span></a>
+                 <br></br>
+            </li>
         </ul>
-            <br></br>
-            <br></br>
         <hr class = "greenbar"></hr>
        </section>
        </div>

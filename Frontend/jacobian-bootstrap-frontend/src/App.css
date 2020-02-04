@@ -119,6 +119,14 @@ monospace;
 }
 
  
+input, textarea { 
+width: 100%; 
+}
+
+.form-control{ 
+width: 100%; 
+}
+
 
 
 .navbar-custom { 

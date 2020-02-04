@@ -7,8 +7,23 @@ const Contact = () => {
         <h1>Contact</h1><h1 class = "blinking">_</h1>   
         </div>            
         <hr class = "greenbar"></hr>
-           <p>Home page body content</p>
+           <p></p>
            </section>
+           <form>
+            <label>
+                Name:
+                <input type="text" name="name" required/>
+                <br></br>
+                Email:
+                <input type="email" name="email" required/>
+                <br></br>
+            </label>
+            </form>  
+            Message:          
+            <textarea name="comment" form="message"></textarea>
+            
+            <input type="submit" value="Submit"/>
+
            <hr class = "greenbar"></hr>
        </div>
     );
