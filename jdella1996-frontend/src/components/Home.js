@@ -79,7 +79,7 @@ class Home extends Component{
           id = "twitter-widget"
           sourceType="profile"
           screenName="JDella1996"
-          options={{height: 1200, width:1050}}
+          options={{height: 800, width:700}}
           />
           </a>
         <p>By JDella1996</p>

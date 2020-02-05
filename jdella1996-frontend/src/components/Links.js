@@ -30,9 +30,6 @@ const Links = () => {
                 <a  href="https://www.linkedin.com/in/jacob-della-83921a141/" target="_blank" >Linkedin<span class="sr-only">(current)</span></a>
                 <br></br>
             </li>
-
-
-
             <li>
                  <a href={Resume} target="_blank">Resume<span class="sr-only">(current)</span></a>
                  <br></br>
