@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
- 
+import Moment from 'moment';
+
 class Blog extends Component{
     
     constructor(props)
@@ -33,14 +34,13 @@ class Blog extends Component{
         return body;
       };
 
-      getPosts() {
-        this.state.posts = this.state.posts.reverse();
+    getPosts() {
         return this.state.posts.map((post) => {
             return (
                 <li>               
                 <h2>{post.post_title}</h2>         
                 <hr class = "blackbar"></hr>
-                <h3>{post.post_date}</h3>
+                <h3>{Moment(post.post_date).format('h:mma ddd DD/MM/YYYY')}</h3>
                 <p>{post.post_body}</p>
                 <img src={post.post_picture}></img>
                <hr class = "blackbar"></hr>
@@ -53,9 +53,11 @@ class Blog extends Component{
         }
 
 
-
  
 render() {
+  Moment.locale('en');
+
+
     return (
         <div className="page">
         <section>

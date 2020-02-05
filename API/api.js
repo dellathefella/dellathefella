@@ -31,11 +31,6 @@ database.InitializeMySQLSession();
 // or handle requests to the database, create files/directories, etc.
                                              
 // Pulls blog posts from the database server.
-app.get('/', function (req, res) {
-    res.send('hello world')
-  })
-
-
 app.post('/api/displayposts', function(req, res) {    
  	database.cfg.query('SELECT * FROM posts', function(err, results, fields){
 		if(err){
@@ -58,6 +53,22 @@ app.post('/api/displayquotes', function(req, res) {
    });
 });
 
+app.post('/api/sendmessage', function(req, res) {
+   let message = req.body.message;
+   let name = req.body.name;
+   let email = req.body.email;
+   console.log(name + " has sent you a message.")
+   console.log("Message :" + message);
+   console.log("Email" + email);
+    database.cfg.query('INSERT INTO messages (message_body, message_sendername, message_email) VALUES (? ,?,?)'
+    ,[message, name, email], function(err, results, fields) {
+        if (!err){
+            console.log("Message submitted")
+        } else {
+            console.log(err);
+        }
+    });
+});
 
 app.listen(port, URL);
 
