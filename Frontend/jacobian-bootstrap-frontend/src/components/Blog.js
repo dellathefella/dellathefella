@@ -35,12 +35,13 @@ class Blog extends Component{
       };
 
     getPosts() {
+      this.state.posts = this.state.posts.reverse();
         return this.state.posts.map((post) => {
             return (
                 <li>               
                 <h2>{post.post_title}</h2>         
                 <hr class = "blackbar"></hr>
-                <h3>{Moment(post.post_date).format('h:mma ddd DD/MM/YYYY')}</h3>
+                <h3>{Moment(post.post_date).format('h:mma ddd MM/DD/YYYY')}</h3>
                 <p>{post.post_body}</p>
                 <img src={post.post_picture}></img>
                <hr class = "blackbar"></hr>
@@ -73,6 +74,9 @@ render() {
 
            </ul>
            <hr class = "greenbar"></hr>
+           <p>By JDella1996</p>
+           <p>Hosted on GRAVEYARD going 2 years strong.</p>
+            <p>Last Updated 02/2020</p>
        </section>
        </div>
     );

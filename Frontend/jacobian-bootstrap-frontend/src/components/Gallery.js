@@ -2,12 +2,13 @@ import React,{Component} from 'react';
 import { render } from 'react-dom';
 import ImageGallery from 'react-image-gallery';
 import './image-gallery.css';
-
+import RARLabs from './staticfiles/images/RARLabs.png';
+import RARLabsThumb from './staticfiles/images/RARLabsThumb.png';
  
 const images = [
     {
-      original: 'https://picsum.photos/id/1018/1000/600/',
-      thumbnail: 'https://picsum.photos/id/1018/250/150/',
+      original: RARLabs,
+      thumbnail: RARLabsThumb
     }
   ];
    
@@ -23,8 +24,11 @@ class Gallery extends Component{
                <hr class = "greenbar"></hr>
                <br></br>
                <br></br>
-               <ImageGallery items={images} />            
+               <ImageGallery originalTitle items={images} />            
                <hr class = "greenbar"></hr>
+               <p>By JDella1996</p>
+               <p>Hosted on GRAVEYARD going 2 years strong.</p>
+              <p>Last Updated 02/2020</p>
             </section>
            </div>
         );

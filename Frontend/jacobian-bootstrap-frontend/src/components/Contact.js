@@ -87,6 +87,9 @@ class Contact extends Component{
             <button value="Submit" disabled={this.validate()}  onClick={() => {this.uploadMessageToDatabase()}}> Submit </button>
 
            <hr class = "greenbar"></hr>
+           <p>By JDella1996</p>
+           <p>Hosted on GRAVEYARD going 2 years strong.</p>
+            <p>Last Updated 02/2020</p>
        </div>
     );
     }

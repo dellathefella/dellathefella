@@ -25,6 +25,14 @@ const Links = () => {
                 <a  href="https://twitter.com/JDella1996" target="_blank" >Twitter<span class="sr-only">(current)</span></a>
                 <br></br>
             </li>
+
+            <li>
+                <a  href="https://www.linkedin.com/in/jacob-della-83921a141/" target="_blank" >Linkedin<span class="sr-only">(current)</span></a>
+                <br></br>
+            </li>
+
+
+
             <li>
                  <a href={Resume} target="_blank">Resume<span class="sr-only">(current)</span></a>
                  <br></br>
@@ -36,6 +44,9 @@ const Links = () => {
             </li>
         </ul>
         <hr class = "greenbar"></hr>
+        <p>By JDella1996</p>
+        <p>Hosted on GRAVEYARD going 2 years strong.</p>
+        <p>Last Updated 02/2020</p>
        </section>
        </div>
     );

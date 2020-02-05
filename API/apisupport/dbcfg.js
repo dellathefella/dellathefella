@@ -15,11 +15,13 @@ function InitializeMySQLSession(){
         if (err){
             console.log("Test connection to GRAVEYARD database server failed!! Please check dbcfg.js or contact database admin.");
             console.log("The application will not behave properly without the database connection. Quitting now....");
+            console.log(err);
             process.exit();
         return;
         }
-        console.log("Connection to database server successfully created!");
+        console.log("Connection to database server successfully spawned!");
     });
 };
 
+ 
 module.exports = {cfg,  InitializeMySQLSession};

@@ -113,6 +113,12 @@ font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 monospace;
 }
 
+#twitter-widget {
+  position: absolute;
+  top: 75px;
+  text-align:center;
+  width: 100% !important; 
+}
 
 .App-link {
   color:turquoise;
