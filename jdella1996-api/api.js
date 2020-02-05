@@ -8,7 +8,7 @@ var session = require('express-session');
 var bodyParser = require('body-parser');
 var app = express();
 var port = 7234;
-var URL = "192.168.1.19";
+var URL = "localhost";
 
 //Express crap
 app.use(session({
@@ -57,9 +57,6 @@ app.post('/api/sendmessage', function(req, res) {
    let message = req.body.message;
    let name = req.body.name;
    let email = req.body.email;
-   console.log(name + " has sent you a message.")
-   console.log("Message :" + message);
-   console.log("Email" + email);
     database.cfg.query('INSERT INTO messages (message_body, message_sendername, message_email) VALUES (? ,?,?)'
     ,[message, name, email], function(err, results, fields) {
         if (!err){

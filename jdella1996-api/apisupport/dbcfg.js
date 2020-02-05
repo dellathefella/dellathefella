@@ -20,6 +20,22 @@ function InitializeMySQLSession(){
         return;
         }
         console.log("Connection to database server successfully spawned!");
+        setInterval(function () {
+            var currentdate = new Date(); 
+            var datetime = currentdate.getDate() + "/"
+                + (currentdate.getMonth()+1)  + "/" 
+                + currentdate.getFullYear() + " @ "  
+                + currentdate.getHours() + ":"  
+                + currentdate.getMinutes() + ":" 
+                + currentdate.getSeconds();
+            cfg.query('SELECT 1', function(err) {
+                if (!err){
+                    console.log("Database server pinged at " + datetime);
+                } else {
+                    console.log(err);
+                }
+            });
+            }, 5000);
     });
 };
 
