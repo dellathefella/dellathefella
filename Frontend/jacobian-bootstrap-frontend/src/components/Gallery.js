@@ -4,11 +4,17 @@ import ImageGallery from 'react-image-gallery';
 import './image-gallery.css';
 import RARLabs from './staticfiles/images/RARLabs.png';
 import RARLabsThumb from './staticfiles/images/RARLabsThumb.png';
- 
+import Graveyard from './staticfiles/images/Graveyard.JPG';
+import GraveyardThumb from './staticfiles/images/GraveyardThumb.JPG';
+
 const images = [
     {
       original: RARLabs,
       thumbnail: RARLabsThumb
+    },
+    {
+      original: Graveyard,
+      thumbnail: GraveyardThumb
     }
   ];
    
