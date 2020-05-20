@@ -5,7 +5,13 @@ import Transcript from "./staticfiles/documents/JacobADellaTranscript.pdf"
 const Links = () => {
     return (
         <div className="page">
-        <section>
+	<section>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         <div id = "heading">
         <h1>Links</h1><h1 class = "blinking">_</h1>   
         </div> 
@@ -20,7 +26,10 @@ const Links = () => {
                 <a href="https://gitlab.com/jdella1996" target="_blank" >GitLab<span class="sr-only">(current)</span></a>
                 <br></br>
             </li>
-
+            <li>
+                 <a href="https://www.youtube.com/channel/UCYAF7gMbq5J36Zl6F-NEvWA" target="_blank">Youtube<span class="sr-only">(current)</span></a>
+                 <br></br>
+            </li>
             <li>
                 <a  href="https://twitter.com/JDella1996" target="_blank" >Twitter<span class="sr-only">(current)</span></a>
                 <br></br>

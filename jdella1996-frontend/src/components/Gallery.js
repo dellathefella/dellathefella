@@ -23,7 +23,13 @@ class Gallery extends Component{
     render(){
         return (
             <div className="page">
-            <section>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+	    <section>
             <div id = "heading">
             <h1>Gallery</h1><h1 class = "blinking">_</h1>   
             </div>  

@@ -62,6 +62,12 @@ render() {
     return (
         <div className="page">
         <section>
+	<br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         <div id = "heading">
         <h1>Blog</h1><h1 class = "blinking">_</h1>   
         </div>

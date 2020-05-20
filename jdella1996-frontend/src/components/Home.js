@@ -62,7 +62,13 @@ class Home extends Component{
     return (
  
         <div className="page"><section>
-        <div id = "heading">
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+	<div id = "heading">
         <h1>Home</h1><h1 class = "blinking">_</h1>   
         </div> 
         <hr class = "greenbar"></hr>
