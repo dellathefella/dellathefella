@@ -17,7 +17,7 @@
     "react-photo-gallery": "^8.0.0",
     "react-router-dom": "^5.1.2",
     "react-router-page-transition": "^3.1.0",
-    "react-scripts": "^3.3.1",
+    "react-scripts": "^3.4.3",
     "react-transition-group": "^4.3.0",
     "react-twitter-embed": "^3.0.3"
   },
@@ -27,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://192.168.1.32:7234",
+  "proxy": "http://192.168.1.61:7234",
   "eslintConfig": {
     "extends": "react-app"
   },

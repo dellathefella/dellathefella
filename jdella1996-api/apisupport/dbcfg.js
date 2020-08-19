@@ -1,10 +1,10 @@
 //Database connection
 var mysql = require('mysql');
 var cfg = mysql.createConnection({
-    host : "192.168.1.219",
-    user : "jacobianonline",
-    password : "VFO1092!@#4",
-    database : "jdella1996"
+    host : "192.168.1.62",
+    user : "epsilonuser",
+    password : "c696671fae5ae44be2cbc4746ceadbe3",
+    database : "epsilon"
  });
 
 //Intialize MySQL session. If you end the connection
