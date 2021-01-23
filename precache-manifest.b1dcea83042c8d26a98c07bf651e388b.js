@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60619856e765ea2e15367df8ce2796e4",
+    "revision": "f08542f1d36bc088b76c8878145e864b",
     "url": "/JDella1996.net/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/JDella1996.net/static/css/2.ff645aaf.chunk.css"
   },
   {
-    "revision": "911ab809dd528d06142e",
+    "revision": "4b1ad2bedf9f9e8b279e",
     "url": "/JDella1996.net/static/css/main.6cdff4aa.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/JDella1996.net/static/js/2.0183e5a9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "911ab809dd528d06142e",
-    "url": "/JDella1996.net/static/js/main.6566ef42.chunk.js"
+    "revision": "4b1ad2bedf9f9e8b279e",
+    "url": "/JDella1996.net/static/js/main.3aaf243d.chunk.js"
   },
   {
     "revision": "2eef62ea13c1cfe4766b",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/JDella1996.net/static/media/GraveyardThumb.b6e6d4fc.JPG"
   },
   {
-    "revision": "36ea8df2bf4a842ed4ef73f88924da76",
-    "url": "/JDella1996.net/static/media/JacobADellaResume.36ea8df2.pdf"
+    "revision": "94aaa8c937dc4bb4661bc57b24fb751f",
+    "url": "/JDella1996.net/static/media/JacobADellaResume.94aaa8c9.pdf"
   },
   {
     "revision": "3ad37baa4c0320d5c78db6d7a7d183fd",
