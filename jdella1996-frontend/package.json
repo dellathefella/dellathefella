@@ -2,6 +2,7 @@
   "name": "jdella1996",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jdella1996.github.io/JDella1996.net/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
@@ -30,7 +31,6 @@
     "predeploy":"npm run build",
     "deploy":"gh-pages -d build"
   },
-  "proxy": "http://192.168.1.61:7234",
   "eslintConfig": {
     "extends": "react-app"
   },
