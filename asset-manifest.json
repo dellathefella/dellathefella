@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/JDella1996.net/static/css/main.6cdff4aa.chunk.css",
-    "main.js": "/JDella1996.net/static/js/main.3aaf243d.chunk.js",
-    "main.js.map": "/JDella1996.net/static/js/main.3aaf243d.chunk.js.map",
+    "main.js": "/JDella1996.net/static/js/main.4460c74d.chunk.js",
+    "main.js.map": "/JDella1996.net/static/js/main.4460c74d.chunk.js.map",
     "runtime-main.js": "/JDella1996.net/static/js/runtime-main.b730f61c.js",
     "runtime-main.js.map": "/JDella1996.net/static/js/runtime-main.b730f61c.js.map",
     "static/css/2.ff645aaf.chunk.css": "/JDella1996.net/static/css/2.ff645aaf.chunk.css",
     "static/js/2.0183e5a9.chunk.js": "/JDella1996.net/static/js/2.0183e5a9.chunk.js",
     "static/js/2.0183e5a9.chunk.js.map": "/JDella1996.net/static/js/2.0183e5a9.chunk.js.map",
     "index.html": "/JDella1996.net/index.html",
-    "precache-manifest.b1dcea83042c8d26a98c07bf651e388b.js": "/JDella1996.net/precache-manifest.b1dcea83042c8d26a98c07bf651e388b.js",
+    "precache-manifest.f35ae22f38ce9f977fafc4a3807a1094.js": "/JDella1996.net/precache-manifest.f35ae22f38ce9f977fafc4a3807a1094.js",
     "service-worker.js": "/JDella1996.net/service-worker.js",
     "static/css/2.ff645aaf.chunk.css.map": "/JDella1996.net/static/css/2.ff645aaf.chunk.css.map",
     "static/css/main.6cdff4aa.chunk.css.map": "/JDella1996.net/static/css/main.6cdff4aa.chunk.css.map",
@@ -26,6 +26,6 @@
     "static/css/2.ff645aaf.chunk.css",
     "static/js/2.0183e5a9.chunk.js",
     "static/css/main.6cdff4aa.chunk.css",
-    "static/js/main.3aaf243d.chunk.js"
+    "static/js/main.4460c74d.chunk.js"
   ]
 }
