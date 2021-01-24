@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import Navigation from './components/Navigation';
 import Links from './components/Links';
+import Blog from './components/Blog';
 import Gallery from './components/Gallery';
 import {CSSTransition, TransitionGroup} from 'react-transition-group';
 import './App.css'
@@ -33,6 +34,7 @@ class App extends Component {
               >
                 <Switch location = {location}>
                     <Route path="/JDella1996.net" component={Home} exact/>
+                    <Route path="/blog" component={Blog} exact/>
                     <Route path="/links" component={Links} exact/>
                     <Route path="/gallery" component={Gallery} exact/>
                     <Route component={Error}/>

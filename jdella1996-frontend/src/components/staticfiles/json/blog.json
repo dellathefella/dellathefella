@@ -1,0 +1,8 @@
+[
+    {
+        "post_title": "DL380p HomeLab Build",
+        "post_date": "2020-08-19T02:08:47.000Z",
+        "post_body": "Bought a DL380p for messing around, pretty amazing piece of hardware for the money. HP's licensing model for these does suck though, requring a service agreement which I do not have. So I had to find alternative methods to obtain updates and secuity patches. I modded one of the internal risers to allow for aftermarket 2 slot GPUs, this involved cracking out a screwdriver and a hammer, than chiseling out a piece of plastic. I also installed a modded iLO management interface firmware to help silence the noisey fans when non-approved hardware is installed. Without the mod it sounds like a Boeing 747 taking off on the runway.",
+        "post_picture": ""
+    }
+]

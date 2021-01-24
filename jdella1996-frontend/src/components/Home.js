@@ -46,12 +46,13 @@ class Home extends Component{
         <hr class = "greenbar"></hr>
         <h1>{this.getQuotes()}</h1>
         <hr class = "greenbar"></hr>
-        <p>My name is Jacob, welcome to my site! I have a bachelors of Computer Science and a Mathematics minor from Towson University.
-          I have numerous years of IT ands oftware experience doing projects at home and work. I generally tend to focus my efforts on more open technology stacks such as; Python, JavaScript, C++, and Java. If you were 
-          around for the original version of this website it used Django, it has now been rewritten to utilize React. This new version of the website dumped the use of an external database system since it was pretty overkill.
-          All the important stuff is under links.</p>
+        <p>Welcome to my website, my name is Jacob Della. I have a bachelor's of computer science and a Mathematics minor from Towson University. 
+          I have experience working in IT and developing software. At home I dabble in side projects where I've honed my skills in more open technology stacks such as; Python, JavaScript, C++, and Java. 
+          The original version of this website used Django, a python framework, it now utilizes React. 
+          I have included my resume and additional documents which can be found under links. Thank you for your time and consideration. 
+        </p>
           <hr class = "greenbar"></hr>
-          <h1>Tweets by yours truly.</h1>
+          <h1>Tweets</h1>
           <a>
           <TwitterTimelineEmbed
           id = "twitter-widget"
