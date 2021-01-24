@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/JDella1996.net/static/css/main.6cdff4aa.chunk.css",
-    "main.js": "/JDella1996.net/static/js/main.dc9325c5.chunk.js",
-    "main.js.map": "/JDella1996.net/static/js/main.dc9325c5.chunk.js.map",
+    "main.js": "/JDella1996.net/static/js/main.0c86bb39.chunk.js",
+    "main.js.map": "/JDella1996.net/static/js/main.0c86bb39.chunk.js.map",
     "runtime-main.js": "/JDella1996.net/static/js/runtime-main.b730f61c.js",
     "runtime-main.js.map": "/JDella1996.net/static/js/runtime-main.b730f61c.js.map",
     "static/css/2.ff645aaf.chunk.css": "/JDella1996.net/static/css/2.ff645aaf.chunk.css",
-    "static/js/2.0183e5a9.chunk.js": "/JDella1996.net/static/js/2.0183e5a9.chunk.js",
-    "static/js/2.0183e5a9.chunk.js.map": "/JDella1996.net/static/js/2.0183e5a9.chunk.js.map",
+    "static/js/2.9f0fd268.chunk.js": "/JDella1996.net/static/js/2.9f0fd268.chunk.js",
+    "static/js/2.9f0fd268.chunk.js.map": "/JDella1996.net/static/js/2.9f0fd268.chunk.js.map",
     "index.html": "/JDella1996.net/index.html",
-    "precache-manifest.420610a8b4683ecb4efbac312146b3fe.js": "/JDella1996.net/precache-manifest.420610a8b4683ecb4efbac312146b3fe.js",
+    "precache-manifest.4ed74b8c2c6f1a4b1f745455ff27d4d5.js": "/JDella1996.net/precache-manifest.4ed74b8c2c6f1a4b1f745455ff27d4d5.js",
     "service-worker.js": "/JDella1996.net/service-worker.js",
     "static/css/2.ff645aaf.chunk.css.map": "/JDella1996.net/static/css/2.ff645aaf.chunk.css.map",
     "static/css/main.6cdff4aa.chunk.css.map": "/JDella1996.net/static/css/main.6cdff4aa.chunk.css.map",
-    "static/js/2.0183e5a9.chunk.js.LICENSE.txt": "/JDella1996.net/static/js/2.0183e5a9.chunk.js.LICENSE.txt",
+    "static/js/2.9f0fd268.chunk.js.LICENSE.txt": "/JDella1996.net/static/js/2.9f0fd268.chunk.js.LICENSE.txt",
     "static/media/Graveyard.JPG": "/JDella1996.net/static/media/Graveyard.af99eb45.JPG",
     "static/media/GraveyardThumb.JPG": "/JDella1996.net/static/media/GraveyardThumb.b6e6d4fc.JPG",
     "static/media/JacobADellaResume.pdf": "/JDella1996.net/static/media/JacobADellaResume.94aaa8c9.pdf",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.b730f61c.js",
     "static/css/2.ff645aaf.chunk.css",
-    "static/js/2.0183e5a9.chunk.js",
+    "static/js/2.9f0fd268.chunk.js",
     "static/css/main.6cdff4aa.chunk.css",
-    "static/js/main.dc9325c5.chunk.js"
+    "static/js/main.0c86bb39.chunk.js"
   ]
 }
