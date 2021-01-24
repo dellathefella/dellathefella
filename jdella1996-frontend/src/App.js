@@ -32,7 +32,7 @@ class App extends Component {
               key={location.key}
               >
                 <Switch location = {location}>
-                    <Route path="/" component={Home} exact/>
+                    <Route path="/JDella1996.net" component={Home} exact/>
                     <Route path="/links" component={Links} exact/>
                     <Route path="/gallery" component={Gallery} exact/>
                     <Route component={Error}/>

@@ -5,7 +5,7 @@ const Navigation = () => {
     return (
   <div>
   <nav class="navbar navbar-expand-lg navbar-custom ">
-  <a class="navbar-brand" href="#"><NavLink to="/"style={{color: 'white', textDecoration: 'none'}} activeStyle={{color: '#00cc44', textDecoration: 'none'}}>JDella1996</NavLink></a>
+  <a class="navbar-brand" href="#"><NavLink to="/JDella1996.net"style={{color: 'white', textDecoration: 'none'}} activeStyle={{color: '#00cc44', textDecoration: 'none'}}>JDella1996</NavLink></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     <span class="navbar-toggler-icon"></span>

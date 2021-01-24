@@ -39,8 +39,6 @@ class Gallery extends Component{
                <ImageGallery originalTitle items={images} />            
                <hr class = "greenbar"></hr>
                <p>By JDella1996</p>
-               <p>Hosted on GRAVEYARD going 2 years strong.</p>
-              <p>Last Updated 02/2020</p>
             </section>
            </div>
         );
