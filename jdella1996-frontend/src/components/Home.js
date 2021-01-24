@@ -46,8 +46,8 @@ class Home extends Component{
         <hr class = "greenbar"></hr>
         <h1>{this.getQuotes()}</h1>
         <hr class = "greenbar"></hr>
-        <p>My name is Jacob, welcome to my site! I graduated from Towson University with a bachelors of Computer Science and a Mathematics minor.
-          I have numerous years of IT and Software experience doing projects at home and work. I generally tend to focus my efforts on more open technology stacks such as; Python, JavaScript, C++, and Java. If you were 
+        <p>My name is Jacob, welcome to my site! I have a bachelors of Computer Science and a Mathematics minor from Towson University.
+          I have numerous years of IT ands oftware experience doing projects at home and work. I generally tend to focus my efforts on more open technology stacks such as; Python, JavaScript, C++, and Java. If you were 
           around for the original version of this website it used Django, it has now been rewritten to utilize React. This new version of the website dumped the use of an external database system since it was pretty overkill.
           All the important stuff is under links.</p>
           <hr class = "greenbar"></hr>
