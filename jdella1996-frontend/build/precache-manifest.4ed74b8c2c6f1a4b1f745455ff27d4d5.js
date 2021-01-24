@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "23c02dd7fb407b03ad11a39b5cc75e85",
+    "revision": "773a6ec1431093cf97cffd27b269573c",
     "url": "/JDella1996.net/index.html"
   },
   {
-    "revision": "bc6536779bb4d2160fd1",
+    "revision": "7802bd5cd700f63afc83",
     "url": "/JDella1996.net/static/css/2.ff645aaf.chunk.css"
   },
   {
-    "revision": "cf19c858653da094e16a",
+    "revision": "9f5b985c801732cd835d",
     "url": "/JDella1996.net/static/css/main.6cdff4aa.chunk.css"
   },
   {
-    "revision": "bc6536779bb4d2160fd1",
-    "url": "/JDella1996.net/static/js/2.0183e5a9.chunk.js"
+    "revision": "7802bd5cd700f63afc83",
+    "url": "/JDella1996.net/static/js/2.9f0fd268.chunk.js"
   },
   {
-    "revision": "7f6788181d27fd8574903d69819e5327",
-    "url": "/JDella1996.net/static/js/2.0183e5a9.chunk.js.LICENSE.txt"
+    "revision": "f4f341c3bb4a7468d5927583e5bacd1e",
+    "url": "/JDella1996.net/static/js/2.9f0fd268.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cf19c858653da094e16a",
-    "url": "/JDella1996.net/static/js/main.dc9325c5.chunk.js"
+    "revision": "9f5b985c801732cd835d",
+    "url": "/JDella1996.net/static/js/main.0c86bb39.chunk.js"
   },
   {
     "revision": "2eef62ea13c1cfe4766b",
