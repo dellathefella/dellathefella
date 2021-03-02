@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af4931678561acb329f053769a8e8661",
+    "revision": "a11778bb74561be0bcf1863df90368bf",
     "url": "/JDella1996.net/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/JDella1996.net/static/css/2.4f518f77.chunk.css"
   },
   {
-    "revision": "43a3e67893a63021ef62",
+    "revision": "1a806b6c4be36e06b8a3",
     "url": "/JDella1996.net/static/css/main.6cdff4aa.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/JDella1996.net/static/js/2.74c95508.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "43a3e67893a63021ef62",
-    "url": "/JDella1996.net/static/js/main.f52d3184.chunk.js"
+    "revision": "1a806b6c4be36e06b8a3",
+    "url": "/JDella1996.net/static/js/main.7cd0c525.chunk.js"
   },
   {
     "revision": "2eef62ea13c1cfe4766b",
