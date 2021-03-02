@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "773a6ec1431093cf97cffd27b269573c",
+    "revision": "af4931678561acb329f053769a8e8661",
     "url": "/JDella1996.net/index.html"
   },
   {
-    "revision": "7802bd5cd700f63afc83",
-    "url": "/JDella1996.net/static/css/2.ff645aaf.chunk.css"
+    "revision": "90f293e76ff686c1089a",
+    "url": "/JDella1996.net/static/css/2.4f518f77.chunk.css"
   },
   {
-    "revision": "9f5b985c801732cd835d",
+    "revision": "43a3e67893a63021ef62",
     "url": "/JDella1996.net/static/css/main.6cdff4aa.chunk.css"
   },
   {
-    "revision": "7802bd5cd700f63afc83",
-    "url": "/JDella1996.net/static/js/2.9f0fd268.chunk.js"
+    "revision": "90f293e76ff686c1089a",
+    "url": "/JDella1996.net/static/js/2.74c95508.chunk.js"
   },
   {
     "revision": "f4f341c3bb4a7468d5927583e5bacd1e",
-    "url": "/JDella1996.net/static/js/2.9f0fd268.chunk.js.LICENSE.txt"
+    "url": "/JDella1996.net/static/js/2.74c95508.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9f5b985c801732cd835d",
-    "url": "/JDella1996.net/static/js/main.0c86bb39.chunk.js"
+    "revision": "43a3e67893a63021ef62",
+    "url": "/JDella1996.net/static/js/main.f52d3184.chunk.js"
   },
   {
     "revision": "2eef62ea13c1cfe4766b",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/JDella1996.net/static/media/GraveyardThumb.b6e6d4fc.JPG"
   },
   {
-    "revision": "94aaa8c937dc4bb4661bc57b24fb751f",
-    "url": "/JDella1996.net/static/media/JacobADellaResume.94aaa8c9.pdf"
+    "revision": "b90cef006c184394ca0569c36568ca15",
+    "url": "/JDella1996.net/static/media/JacobADellaResume.b90cef00.pdf"
   },
   {
     "revision": "3ad37baa4c0320d5c78db6d7a7d183fd",
