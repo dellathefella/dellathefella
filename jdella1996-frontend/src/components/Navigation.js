@@ -13,9 +13,9 @@ const Navigation = () => {
     <span class="navbar-toggler-icon"></span>
   </button>
     <div class="navbar">
-    <a class="nav-item nav-link"><NavLink to="/blog" style={{color: 'white', textDecoration: 'none'}} activeStyle={{color: '#00cc44', textDecoration: 'none'}} >Blog</NavLink> <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link"><NavLink to="/gallery" style={{color: 'white', textDecoration: 'none'}} activeStyle={{color: '#00cc44', textDecoration: 'none'}} >Gallery</NavLink> <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link"><NavLink to="/links" style={{color: 'white', textDecoration: 'none'}} activeStyle={{color: ' #00cc44', textDecoration: 'none'}} >Links</NavLink> <span class="sr-only">(current)</span></a>
+    <a class="nav-item nav-link"><NavLink to="/JDella1996.net/blog" style={{color: 'white', textDecoration: 'none'}} activeStyle={{color: '#00cc44', textDecoration: 'none'}} >Blog</NavLink> <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link"><NavLink to="/JDella1996.net/gallery" style={{color: 'white', textDecoration: 'none'}} activeStyle={{color: '#00cc44', textDecoration: 'none'}} >Gallery</NavLink> <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link"><NavLink to="/JDella1996.net/links" style={{color: 'white', textDecoration: 'none'}} activeStyle={{color: ' #00cc44', textDecoration: 'none'}} >Links</NavLink> <span class="sr-only">(current)</span></a>
     </div>
 </nav>
 

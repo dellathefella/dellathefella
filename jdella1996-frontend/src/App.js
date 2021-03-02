@@ -34,9 +34,9 @@ class App extends Component {
               >
                 <Switch location = {location}>
                     <Route path="/JDella1996.net" component={Home} exact/>
-                    <Route path="/blog" component={Blog} exact/>
-                    <Route path="/links" component={Links} exact/>
-                    <Route path="/gallery" component={Gallery} exact/>
+                    <Route path="/JDella1996.net/blog" component={Blog} exact/>
+                    <Route path="/JDella1996.net/links" component={Links} exact/>
+                    <Route path="/JDella1996.net/gallery" component={Gallery} exact/>
                     <Route component={Error}/>
                   </Switch>
              </CSSTransition>
