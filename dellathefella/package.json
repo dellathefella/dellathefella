@@ -11,16 +11,16 @@
     "moment": "^2.24.0",
     "print-message": "^3.0.1",
     "react": "^16.12.0",
-    "react-bootstrap": "^1.5.0",
+    "react-bootstrap": "^1.6.1",
     "react-dom": "^16.12.0",
     "react-grid-gallery": "^0.5.5",
-    "react-image-gallery": "^1.0.9",
+    "react-image-gallery": "^1.2.5",
     "react-pdf": "^4.1.0",
     "react-photo-gallery": "^8.0.0",
     "react-router-dom": "^5.1.2",
     "react-router-page-transition": "^3.1.0",
-    "react-scripts": "^3.4.3",
-    "react-transition-group": "^4.3.0",
+    "react-scripts": "^4.0.3",
+    "react-transition-group": "^4.4.2",
     "react-twitter-embed": "^3.0.3"
   },
   "scripts": {
@@ -47,6 +47,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.2.3"
   }
 }
