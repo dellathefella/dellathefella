@@ -5,7 +5,7 @@ const Navigation = () => {
     return (
   <div>
   <nav class="navbar navbar-expand-lg navbar-custom ">
-  <a class="navbar-brand" href="#"><NavLink to="/dellathefella"style={{color: 'white', textDecoration: 'none'}} activeStyle={{color: '#00cc44', textDecoration: 'none'}}>JDella1996</NavLink></a>
+  <a class="navbar-brand" href="#"><NavLink to="/dellathefella"style={{color: 'white', textDecoration: 'none'}} activeStyle={{color: '#0252e6', textDecoration: 'none'}}>dellathefella</NavLink></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     <span class="navbar-toggler-icon"></span>
@@ -13,7 +13,7 @@ const Navigation = () => {
     <span class="navbar-toggler-icon"></span>
   </button>
     <div class="navbar">
-      <a class="nav-item nav-link"><NavLink to="/dellathefella/links" style={{color: 'white', textDecoration: 'none'}} activeStyle={{color: ' #00cc44', textDecoration: 'none'}} >Links</NavLink> <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link"><NavLink to="/dellathefella/links" style={{color: 'white', textDecoration: 'none'}} activeStyle={{color: ' #0252e6', textDecoration: 'none'}} >Links</NavLink> <span class="sr-only">(current)</span></a>
     </div>
 </nav>
 

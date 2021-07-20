@@ -50,7 +50,7 @@ const Links = () => {
             </li>
         </ul>
         <hr class = "colorbar"></hr>
-        <p>By JDella1996</p>
+        <p>By dellathefella</p>
        </section>
        </div>
     );

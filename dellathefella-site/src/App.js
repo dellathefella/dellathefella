@@ -11,7 +11,7 @@ class App extends Component {
   
   constructor(props)
   {
-      document.title = "JDella1996's Website";
+      document.title = "dellathefella";
       
       super(props); 
   }
