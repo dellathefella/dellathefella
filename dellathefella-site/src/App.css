@@ -99,8 +99,8 @@ h1.blinking{
 }
 
 
-hr.greenbar {
-    border: 5px solid #00cc44;
+hr.colorbar {
+    border: 5px solid #0252e6;
     border-radius: 5px;
 }
 

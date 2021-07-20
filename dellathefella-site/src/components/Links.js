@@ -15,10 +15,10 @@ const Links = () => {
         <div id = "heading">
         <h1>Links</h1><h1 class = "blinking">_</h1>   
         </div> 
-        <hr class = "greenbar"></hr>
+        <hr class = "colorbar"></hr>
         <ul>
             <li>
-                 <a href="https://github.com/jdella1996" target="_blank" >GitHub<span class="sr-only">(current)</span></a>
+                 <a href="https://github.com/dellathefella" target="_blank" >GitHub<span class="sr-only">(current)</span></a>
                  <br></br>
             </li>
 
@@ -49,7 +49,7 @@ const Links = () => {
                  <br></br>
             </li>
         </ul>
-        <hr class = "greenbar"></hr>
+        <hr class = "colorbar"></hr>
         <p>By JDella1996</p>
        </section>
        </div>

@@ -43,30 +43,28 @@ class Home extends Component{
 	<div id = "heading">
         <h1>Home</h1><h1 class = "blinking">_</h1>   
         </div> 
-        <hr class = "greenbar"></hr>
+        <hr class = "colorbar"></hr>
         <h1>{this.getQuotes()}</h1>
-        <hr class = "greenbar"></hr>
+        <hr class = "colorbar"></hr>
         <p>Welcome to my website, my name is Jacob Della. I have a bachelor's of computer science and a Mathematics minor from Towson University. 
-          I have experience working in IT and developing software. At home I dabble in side projects where I've honed my skills in more open technology stacks such as; Python, JavaScript, C++, and Java. 
-          The original version of this website used Django, a python framework, it now utilizes React. 
+          I have experience working in IT and developing software.
           I have included my resume and additional documents which can be found under links. Thank you for your time and consideration. 
         </p>
-          <hr class = "greenbar"></hr>
+          <hr class = "colorbar"></hr>
           <h1>Tweets</h1>
           <a>
           <TwitterTimelineEmbed
           id = "twitter-widget"
           sourceType="profile"
-          screenName="JDella1996"
+          screenName="dellathefella_"
           options={{height: 800, width:700}}
           />
           </a>
-        <p>By JDella1996</p>
+          <p>By dellathefella</p>
         </section>
        </div>
         );
     }
-
 }
  
 export default Home;
