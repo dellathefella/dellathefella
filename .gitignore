@@ -1,5 +1,3 @@
-node_modules
-
 # Created by https://www.toptal.com/developers/gitignore/api/react,reactnative
 # Edit at https://www.toptal.com/developers/gitignore?templates=react,reactnative
 
@@ -11,7 +9,7 @@ logs
 **/*.back.*
 **/node_modules/**
 node_modules
-dellathefella-site/node_modules
+./dellathefella/node_modules
 bower_components
 
 *.sublime*
