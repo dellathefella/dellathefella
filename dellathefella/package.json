@@ -19,7 +19,7 @@
     "react-photo-gallery": "^8.0.0",
     "react-router-dom": "^5.1.2",
     "react-router-page-transition": "^3.1.0",
-    "react-scripts": "^4.0.3",
+    "react-scripts": "^5.0.1",
     "react-transition-group": "^4.4.2",
     "react-twitter-embed": "^3.0.3"
   },
